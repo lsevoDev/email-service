@@ -32,9 +32,27 @@ spring:
 ````
 ## Backend service
 To run backend service in development mode after setting up project simply run:
-````maven
+````shell
 mvn spring-boot:run
 ````
 After service has started you can access swagger ui page on 
 [localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) where you can see api documentation and 
 execute requests.
+
+## Frontend
+To run frontend app in development mode on [localhost:3000](localhost:3000) simply run:
+````shell
+npm start --prefix frontend
+````
+
+## Package build
+
+To package build into fat jar simply run:
+
+````maven
+mvn clean install
+````
+and execute jar file with command:
+````shell
+java -jar backend/target/backend-0.0.1-SNAPSHOT.jar
+````

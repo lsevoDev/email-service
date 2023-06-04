@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>frontend</module>
         <module>backend</module>
     </modules>
 
@@ -17,6 +18,7 @@
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <parentdir>${project.basedir}</parentdir>
     </properties>
 
 </project>
