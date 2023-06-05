@@ -8,6 +8,7 @@ implementing `com.lsevo.emailservice.email.service.EmailSenderService` interface
 - Maven 3.9.2
 - Java 19
 - Docker
+- npm
 
 ## Project setup
 This service uses MSSQL database as persistence storage. To configure service to run two things are required.
